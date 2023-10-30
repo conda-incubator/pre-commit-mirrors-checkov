@@ -1,0 +1,10 @@
+- id: checkov-conda
+  name: checkov-conda
+  description: This hook runs checkov.
+  entry: checkov -d .
+  language: conda
+  pass_filenames: false
+  always_run: false
+  files: \.tf$
+  exclude: \.+.terraform\/.*$
+  require_serial: true

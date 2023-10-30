@@ -1,0 +1,4 @@
+channels:
+  - conda-forge
+dependencies:
+  - checkov=3.0.14
