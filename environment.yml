@@ -1,4 +1,4 @@
 channels:
   - conda-forge
 dependencies:
-  - checkov=3.0.32
+  - checkov=3.0.33
