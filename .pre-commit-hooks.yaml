@@ -1,6 +1,6 @@
 - id: checkov-conda
   name: checkov-conda
-  description: This hook runs checkov.
+  description: 'This hook runs checkov.'
   entry: checkov -d .
   language: conda
   pass_filenames: false
