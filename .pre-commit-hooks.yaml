@@ -1,7 +1,7 @@
 - id: checkov-conda
   name: checkov-conda
   description: 'This hook runs checkov.'
-  entry: checkov -d .
+  entry: checkov -d . --download-external-modules true --quiet
   language: conda
   pass_filenames: false
   always_run: false
